@@ -1,14 +1,12 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import Card from './components/cards/Card';
+import React from 'react'
+import Navbar from './components/navbar/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-   <Button variant="contained">Hello World</Button>
-   <Card/>
+    <div>
+      <Navbar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
