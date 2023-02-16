@@ -14,7 +14,9 @@ const App = () => {
       <Card title={title} image={image} desc={desc}  price={price} key={id} /> ))}
     </div>
 
+     
     </div>
+    
   )
 }
 

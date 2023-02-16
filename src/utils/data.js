@@ -90,7 +90,7 @@ export const data = [
   },
   {
     id: 11,
-    title: "Arashiyama Bamboo Grove",
+    title: "Arashiyama Bamboo",
     price:"$239,99",
     desc:
       "Bamboo Forest, or Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan.  The Ministry of the Environment considers it a part of the soundscape of Japan.",
