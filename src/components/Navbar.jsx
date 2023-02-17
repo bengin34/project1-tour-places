@@ -1,5 +1,5 @@
 import React from 'react'
-import viator from "../../assets/images/viator.png"
+import viator from "../assets/images/viator.png"
 
 const Navbar = () => {
   return (

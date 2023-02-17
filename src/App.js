@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
-import Card from './components/cards/Card'
-import Footer from './components/footer/Footer'
+import Navbar from './components/Navbar'
+import Card from './components/Card'
+import Footer from './components/Footer'
 import {data} from './utils/data'
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       {data.map(({title, image, desc, id,price}) =>  (
       <Card title={title} image={image} desc={desc}  price={price} key={id} /> ))}
     </div>
-
+      <Footer />
      
     </div>
     
